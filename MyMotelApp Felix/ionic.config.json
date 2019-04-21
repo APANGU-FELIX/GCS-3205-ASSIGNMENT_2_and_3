@@ -1,0 +1,7 @@
+{
+  "name": "VicentSidemenuIonicApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

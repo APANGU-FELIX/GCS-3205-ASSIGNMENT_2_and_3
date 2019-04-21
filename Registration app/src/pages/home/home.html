@@ -1,0 +1,34 @@
+
+<ion-header>
+
+    <ion-navbar color="secondary">
+      <ion-title>Home </ion-title>
+      <ion-buttons start>
+        <button ion-button icon-only></button>
+        <ion-icon name="add"></ion-icon>
+      </ion-buttons>
+      <ion-buttons end>
+          <button ion-button icon-only></button>
+          <ion-icon name="home"></ion-icon>
+        </ion-buttons>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+      <img src="assets/imgs/pic1.png">
+   <form  #f="ngForm">
+     <ion-card>
+     <ion-item>
+       <ion-label>Title</ion-label>
+       <ion-textarea name="title" ngModel></ion-textarea>
+     </ion-item>
+     <button ion-button round icon-left type ="submit" color="secondary">
+        <ion-icon name="add"></ion-icon>
+       Save Note  
+     </button>
+    </ion-card>
+   </form>
+  </ion-content>
+  
